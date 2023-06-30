@@ -32,7 +32,7 @@
 
 # 📖 TVDB - React capstone <a name="about-project"></a>
 
-This is a TVDB App for Microverse with REACT. The app will work as database for tv shows where all the shows are retrieved from an API. You can also explore details of each show and filter them via their genres.
+This is a** Movie App **for Microverse REACT-REDUX capstone project. The app will work as database for tv shows where all the shows are retrieved from an API. You can also explore details of each show and filter them via their genres.
 
 ## 🛠 Built With <a name="built-with">HTML5 , CSS, REACT and REDUX</a>
 
@@ -83,7 +83,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-To clone this repository on your machine run `https://github.com/misalazeem/TVDB-react-capstone.git`
+To clone this repository on your machine run `https://github.com/musangamfure/react-capstone-project.git`
 
 <!--
 Example commands:
@@ -140,11 +140,11 @@ Example command:
 
 ### Deployment
 
-- <a href="https://project-implementation--reliable-syrniki-0932c4.netlify.app/">Click Here for live demo </a>
+- <a href="https://harmonious-wisp-8f72f2.netlify.app/">Click Here for live demo </a>
 
 ## 🚀 Zoom Video (explanation) <a name="zoom"></a>
 
-- <a href="https://www.loom.com/share/95d1cdbd8b1041e98ec0350c33b7b958">Click here for Demo Video</a>
+- <a href="https://drive.google.com/file/d/1ZSppstvKOjiTamt8t7rPgrlQ0xhmzwv-/view?usp=sharing">Click here for Demo Video</a>
 
 <!--
 Example:
@@ -160,11 +160,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Misal Azeem**
+👤 **Musangamfura Emmanuel**
 
-- GitHub: [@misalazeem](https://github.com/misalazeem)
-- Twitter: [@misal_azeem](https://twitter.com/misal_azeem)
-- LinkedIn: https://www.linkedin.com/in/misal-94755a82/
+- [GitHub](https://github.com/musangamfure)
+- [Twitter](https://twitter.com/musangamfure)
+- [LinkedIn](https://www.linkedin.com/in/musangamfurae)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
