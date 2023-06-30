@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <h1>Countries App</h1>
+        <h1>Movies App</h1>
         {darkTheme ? (
           <div
             className="theme-light hidden"
