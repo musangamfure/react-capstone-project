@@ -7,7 +7,7 @@ function Home() {
   const categories = useSelector((state) => state.shows.categories);
   const allCategories = ['All', ...categories];
   const shows = useSelector((state) => state.shows.Shows);
-  const bgColors = ['#003153', '#004170'];
+  const bgColors = ['#0C2340', '#1D428A'];
 
   const [filteredCategory, setFilteredCategory] = useState('All');
 
