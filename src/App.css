@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--light-mode-bg);
+}
+
+.main-container.dark {
+  background-color: var(--dark-mode-bg);
+}

@@ -1,0 +1,46 @@
+.show-item {
+  display: flex;
+  max-height: 40vh;
+  flex-direction: column;
+  color: var(--light-mode-text);
+  align-items: flex-end;
+  background-color: var(--color-white);
+  text-decoration: none;
+  box-shadow: 5px 5px 10px 0 #dfd5d5;
+  padding-right: 10px;
+}
+
+.show-item,
+.view-more,
+.details-container {
+  background-color: var(--dark-blue-elements);
+  color: var(--color-white);
+  box-shadow: 5px 5px 10px 0;
+}
+
+.show-image {
+  display: flex;
+  height: 50%;
+}
+
+.show-name {
+  margin: 5px 0;
+  padding-left: 5px;
+  font-size: 2rem;
+}
+
+.details-btn {
+  font-family: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: 2.5rem;
+  border: none;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .show-name {
+    font-size: 2rem;
+  }
+}
