@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>TVDB - React capstone</b></h3>
+  <h3><b>  React capstone Project </b></h3>
 
 </div>
 
@@ -196,7 +196,8 @@ If you like this project give it a rating.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse (microverse.org) for providing the resources and the knowledge to work on projects like this.
+- I would like to thank [Microverse](https://www.microverse.org/)  for providing the resources and the knowledge to work on projects like this.
+- credit: credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the [original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
