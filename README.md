@@ -140,7 +140,7 @@ Example command:
 
 ### Deployment
 
-- <a href="https://649fb9bbf8f8e679f2ff4558--reactcapstoneapp.netlify.app/">Click Here for live demo </a>
+- <a href="https://64a0020c13d46c1dbd548758--reactcapstoneapp.netlify.app/">Click Here for live demo </a>
 
 ## 🚀 Zoom Video (explanation) <a name="zoom"></a>
 
