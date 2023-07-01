@@ -7,15 +7,27 @@ function Home() {
   const categories = useSelector((state) => state.shows.categories);
   const allCategories = ['All', ...categories];
   const shows = useSelector((state) => state.shows.Shows);
-  const bgColors = ['#0C2340', '#1D428A'];
-
   const [filteredCategory, setFilteredCategory] = useState('All');
 
   const filteredShows = filteredCategory === 'All'
     ? shows
     : shows.filter((show) => show.category.includes(filteredCategory));
+
   const handleCategory = (event) => {
     setFilteredCategory(event.target.value);
+  };
+
+  const renderBackgroundColor = (index) => {
+    const patternIndex = index % 8;
+    if (
+      patternIndex === 0
+      || patternIndex === 3
+      || patternIndex === 4
+      || patternIndex === 7
+    ) {
+      return '#0C2340';
+    }
+    return '#1D428A';
   };
 
   return (
@@ -39,7 +51,7 @@ function Home() {
             <Show
               key={show.id}
               Show={show}
-              backgroundColor={bgColors[index % bgColors.length]}
+              backgroundColor={renderBackgroundColor(index)}
             />
           ))}
         </div>
