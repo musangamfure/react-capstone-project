@@ -140,7 +140,7 @@ Example command:
 
 ### Deployment
 
-- <a href="https://harmonious-wisp-8f72f2.netlify.app/">Click Here for live demo </a>
+- <a href="https://reactcapstoneapp.netlify.app/">Click Here for live demo </a>
 
 ## 🚀 Zoom Video (explanation) <a name="zoom"></a>
 
