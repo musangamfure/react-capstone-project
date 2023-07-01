@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
-function Show({ Show }) {
+function Show({ Show, backgroundColor }) {
   const navigate = useNavigate();
 
   const handleShowDetails = () => {
@@ -12,7 +12,7 @@ function Show({ Show }) {
   };
 
   return (
-    <div className="show-item">
+    <div className="show-item" style={{ backgroundColor }}>
       <button
         type="button"
         onClick={handleShowDetails}
@@ -39,6 +39,7 @@ Show.propTypes = {
       average: PropTypes.number.isRequired,
     }).isRequired,
   }).isRequired,
+  backgroundColor: PropTypes.string.isRequired,
 };
 
 export default Show;

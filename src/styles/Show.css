@@ -1,5 +1,6 @@
 .show-item {
   display: flex;
+  height: fit-content;
   flex-direction: column;
   color: var(--light-mode-text);
   align-items: flex-end;
@@ -20,19 +21,29 @@
 }
 
 .show-image {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  height: 50%;
+  align-items: flex-start;
 }
 
 .show-name {
   margin: 5px 0;
   padding-left: 5px;
+  font-size: 2rem;
 }
 
 .details-btn {
-  padding: 10px;
-  border-radius: 10px;
   font-family: inherit;
   cursor: pointer;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: 2.5rem;
+  border: none;
+  padding-top: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .show-name {
+    font-size: 3rem;
+  }
 }
