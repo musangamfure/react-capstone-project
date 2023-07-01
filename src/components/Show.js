@@ -1,6 +1,7 @@
 import '../styles/Show.css';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { BsArrowRightCircle } from 'react-icons/bs';
 
 function Show({ Show }) {
   const navigate = useNavigate();
@@ -12,18 +13,17 @@ function Show({ Show }) {
 
   return (
     <div className="show-item">
+      <button
+        type="button"
+        onClick={handleShowDetails}
+        aria-label="View more info"
+        className="details-btn"
+      >
+        <BsArrowRightCircle />
+      </button>
       <img className="show-image" src={Show.image.medium} alt="" />
       <h3 className="show-name">{Show.name}</h3>
-      <div className="view-more">
-        <button
-          type="button"
-          onClick={handleShowDetails}
-          aria-label="View more info"
-          className="details-btn"
-        >
-          View Details
-        </button>
-      </div>
+      <h3 className="show-rating">{Show.rating.average}</h3>
     </div>
   );
 }
@@ -35,6 +35,9 @@ Show.propTypes = {
       medium: PropTypes.string.isRequired,
     }).isRequired,
     name: PropTypes.string.isRequired,
+    rating: PropTypes.shape({
+      average: PropTypes.number.isRequired,
+    }).isRequired,
   }).isRequired,
 };
 

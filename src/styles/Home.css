@@ -1,14 +1,11 @@
 .hero {
-  height: 20vh;
+  height: 15vh;
   color: var(--light-mode-text);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 0 10px;
 }
 
 .hero h1 {

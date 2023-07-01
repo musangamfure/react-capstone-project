@@ -20,7 +20,7 @@ function Home() {
   return (
     <>
       <div className="hero">
-        <div className="title" />
+        <h1>Shows</h1>
         <div className="filter">
           <span>Categories</span>
           <select onChange={handleCategory}>

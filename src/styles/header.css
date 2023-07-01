@@ -25,6 +25,23 @@
   margin-right: 5px;
 }
 
+.container {
+  display: flex;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.header ul li {
+  margin-right: 10px;
+}
+
 /* Media Query for smaller screens */
 @media only screen and (max-width: 768px) {
   .header {
