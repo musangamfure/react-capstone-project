@@ -33,7 +33,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 .shows-grid {
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 370px) {
   .shows-grid {
     grid-template-columns: repeat(1, 1fr);
   }
